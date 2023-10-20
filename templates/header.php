@@ -1,9 +1,11 @@
 <!-- CSS (Próprio) -->
     <!-- Monta a URL Personalizada (Conf. helpers/url.php) -->
     <?php
-    require_once("helpers/url.php");
+        require_once("helpers/url.php");
+        require_once("data/posts.php");
+        require_once("data/categorias.php");
     ?>
-    
+
     <link rel="stylesheet" href="<?= $BASE_URL ?>/css/style.css">
 
     <!-- Fontes (GoogleFonts) -->
